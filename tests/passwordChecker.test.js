@@ -1,4 +1,4 @@
-const passwordChecker = require("./passwordChecker");
+const passwordChecker = require("../passwordChecker");
 
 test("mot de passe valide", () => {
   expect(passwordChecker("Test@1234")).toBe(true);
